@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# FIXME: GPU runs too hot (>100C w/ fan at 100%)
 export GPU_FORCE_64BIT_PTR=0
 export GPU_MAX_HEAP_SIZE=100
 export GPU_USE_SYNC_OBJECTS=1
